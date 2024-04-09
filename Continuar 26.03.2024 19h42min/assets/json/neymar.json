@@ -1,0 +1,112 @@
+[
+    {
+        "imagemLoja": "assets/img/mercadolivre.webp",
+        "nome": "São Paulo",
+        "imagemProduto": "assets/img/ferramentas.png",
+        "precoNormal": "12,40",
+        "precoPromo": "9,40"
+    },
+    {
+        "imagemLoja": "assets/img/mercadolivre.webp",
+        "nome": "Corinthians",
+        "imagemProduto": "assets/img/whey.jpg",
+        "precoNormal": "14,50",
+        "precoPromo": "7,50"
+    },
+    {
+        "imagemLoja": "assets/img/mercadolivre.webp",
+        "nome": "Palmeiras",
+        "imagemProduto": "assets/img/mouse.png",
+        "precoNormal": "9,40",
+        "precoPromo": "5,60"
+    },
+    {
+        "imagemLoja": "assets/img/mercadolivre.webp",
+        "nome": "Neymar",
+        "imagemProduto": "assets/img/tv.png",
+        "precoNormal": "12,40"
+    },
+    {
+        "imagemLoja": "assets/img/mercadolivre.webp",
+        "nome": "Neymar",
+        "imagemProduto": "assets/img/teste.webp",
+        "precoNormal": "12,40"
+    },
+    {
+        "imagemLoja": "assets/img/mercadolivre.webp",
+        "nome": "São Paulo",
+        "imagemProduto": "assets/img/ferramentas.png",
+        "precoNormal": "12,40",
+        "precoPromo": "9,40"
+    },
+    {
+        "imagemLoja": "assets/img/mercadolivre.webp",
+        "nome": "Neymar",
+        "imagemProduto": "assets/img/mercadolivre.webp",
+        "precoNormal": "12,40"
+    },
+    {
+        "imagemLoja": "assets/img/mercadolivre.webp",
+        "nome": "Neymar",
+        "imagemProduto": "assets/img/tv.png",
+        "precoNormal": "12,40"
+    },
+    {
+        "imagemLoja": "assets/img/mercadolivre.webp",
+        "nome": "Neymar",
+        "imagemProduto": "assets/img/tv.png",
+        "precoNormal": "12,40"
+    },
+    {
+        "imagemLoja": "assets/img/mercadolivre.webp",
+        "nome": "Neymar",
+        "imagemProduto": "assets/img/tv.png",
+        "precoNormal": "12,40"
+    },
+    {
+        "imagemLoja": "assets/img/mercadolivre.webp",
+        "nome": "Neymar",
+        "imagemProduto": "assets/img/tv.png",
+        "precoNormal": "12,40"
+    },
+
+        {
+            "imagemLoja": "assets/img/mercadolivre.webp",
+            "nome": "Neymar",
+            "imagemProduto": "assets/img/tv.png",
+            "precoNormal": "12,40"
+        }
+        ,
+    {
+        "imagemLoja": "assets/img/mercadolivre.webp",
+        "nome": "Neymar",
+        "imagemProduto": "assets/img/tv.png",
+        "precoNormal": "12,40"
+    },
+    {
+        "imagemLoja": "assets/img/mercadolivre.webp",
+        "nome": "São Paulo",
+        "imagemProduto": "assets/img/ferramentas.png",
+        "precoNormal": "12,40",
+        "precoPromo": "9,40"
+    },
+    {
+        "imagemLoja": "assets/img/mercadolivre.webp",
+        "nome": "PrecoPromo",
+        "imagemProduto": "assets/img/tv.png",
+        "precoNormal": "12,40",
+        "precoPromo": "7,56"
+    },
+    {
+        "imagemLoja": "assets/img/mercadolivre.webp",
+        "nome": "Neymar",
+        "imagemProduto": "assets/img/tv.png",
+        "precoNormal": "12,40"
+    },
+    {
+        "imagemLoja": "assets/img/mercadolivre.webp",
+        "nome": "Neymar",
+        "imagemProduto": "assets/img/tv.png",
+        "precoNormal": "12,40"
+    }
+]

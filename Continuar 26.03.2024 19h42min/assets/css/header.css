@@ -1,0 +1,17 @@
+.header1 {
+    position: relative;
+    z-index: 400;
+}
+.header2 {
+    width: 1216px;
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center;
+} 
+.header3 {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+}

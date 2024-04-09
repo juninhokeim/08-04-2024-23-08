@@ -1,0 +1,53 @@
+.mainClass {
+    border: none;
+}
+.jogosClass {
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    gap: 20px;
+    height: 1200px;
+    overflow: hidden !important;
+    background-color: rgba(222, 227, 233, 0.274);
+}
+.imgLojaClass img {
+    box-sizing: border-box;
+    width: 25%;
+    height: auto;
+    float: inline-start;
+    padding: 5px;
+}
+.card {
+    padding: 10px;
+}
+img {
+    display: block;
+    margin: auto;
+    box-sizing: border-box;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+    width: 50%;
+}
+.imgClass {
+    padding: 10px;
+    inset: 0px;
+    box-sizing: border-box;
+    padding: 20px;
+    border: none;
+    margin: auto;
+    display: block;
+    height: calc(50% - 1px);
+    object-fit: contain;
+}   
+.precosClass {
+    padding: 10px;
+    height: calc(50% - 1px);
+}
+.botaoClass {
+    border: none;
+    padding: 5px;
+    background-color: red;
+}

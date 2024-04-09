@@ -1,0 +1,110 @@
+#categoriesMenu.active,
+.category-list {
+    opacity: 1 !important;
+}
+
+
+
+#categoriesMenu { /*relacionada as categorias do menu categorias*/
+    display: none;
+    position: absolute;
+    z-index: 1;
+    background-color: #f9f9f9;
+/*      box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+*/     border-radius: 8px;
+    transition: transform 0.3s ease-in-out;
+    margin-top: 300px;
+    margin-right: 1000px;
+    
+ }
+
+#toggleCategories {
+   border: none;
+   outline: none;
+   background: none;
+   cursor: pointer;
+   opacity: 0.8;
+   transition: opacity 0.3s ease-in-out;
+   border: 1px solid black;
+   border-radius: 4px;
+   height: 100%;
+   padding: 10px;
+   background-color: gray;
+   display: flex;
+   float: left;
+}
+
+#toggleCategories:hover {
+    background: rgb(232, 221, 221);
+    opacity: 1;
+}
+
+body.categories-active {
+    background: rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease-in-out;
+}
+
+#categoriesMenu.active {
+   display: block;
+}
+
+.category-list {
+    list-style: none;
+    padding: 0;
+    columns: 2;
+    margin-left: 20px;
+}
+
+.category-list li {
+    margin-bottom: 10px;
+}
+
+.category-list li a { 
+    text-decoration: none;
+    outline: none;
+    color: black;
+    font-family: "DM Sans Light";
+    font-weight: 500;
+    font-size: 14px;
+    font-style: normal;
+    line-height: 18px;
+    cursor: pointer;
+    transition: all 0.1s ease-in-out;    
+}
+
+.category-list li a:hover { /*Este muda as categorias que ficam escondidas*/
+    background: rgb(225, 222, 222);
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    border: rgb(127, 126, 126) solid;
+}
+iframe {
+    width: 300px;
+    height: 400px;
+}
+
+
+body.categories-active .grid-item,
+body.categories-active {
+    filter: brightness(0.5);
+}
+
+.h3Titulo {
+    font-size: 16px;
+}
+.h3PrecoPromo {
+    font-size: 14px;
+    opacity: 0.5;
+    text-decoration: line-through;
+    overflow: hidden;
+}
+.h3PrecoNormal {
+    margin-top: 2px;
+    color: red;
+    font-size: 28px;
+}
+
+.imgClass, .precosClass {
+    box-sizing: border-box;
+}

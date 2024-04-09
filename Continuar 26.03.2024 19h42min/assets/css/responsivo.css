@@ -1,0 +1,107 @@
+@media (max-width: 1390px) { 
+section, main {
+    margin-left: 2rem;
+    transition: all 1s;
+}
+
+article, aside {
+    margin-right: 2rem;
+    transition: all 1s;
+}
+/*iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii*/
+}
+@media (min-width: 1750px) {
+    article, aside {
+        margin-right: 2rem;
+    }
+}
+/*iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii*/
+
+@media (min-width: 1050px) {
+    .buttonClassDiv
+     {
+        display: none;
+    }
+}
+/*iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii*/
+@media (max-width: 1050px) {
+    section {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-right: 50px;
+    }
+    .baixo {
+        grid-template-columns: 0.94fr 0.94fr 1.18fr;
+
+    }
+
+    .articleClassDiv, aside {
+        display: none; /* Oculta o article */
+    }
+    section, main {
+        margin-right: 2rem;
+    }
+    .buttonClassDiv
+    {
+       width: 23.5%;
+}
+}
+
+/*iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii*/
+
+/*iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii*/
+@media (max-width: 820px) {
+    section {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;    
+    }
+    .jogosClass {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .buttonClassDiv
+     {
+        width: 31.5%;
+}
+}
+/* .buttonClassDiv
+     {
+        width: 31.5%;
+} */
+/*iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii*/
+
+/*iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii*/
+
+@media (max-width: 580px) {
+    section, main {
+        margin: 2px;
+    }
+
+    section {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;    
+    }
+    .jogosClass {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .buttonClassDiv
+     {
+        width: 48%;
+}
+}
+
+/*********************************************************************/
+@media (max-width: 450px) {
+    .textClassDiv {
+        font-size: 11px;
+    }
+    .buttonClass {
+        font-size: 11px;
+        
+        height: 35px;
+    }
+}
